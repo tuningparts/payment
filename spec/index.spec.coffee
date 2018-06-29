@@ -46,8 +46,8 @@ describe 'payment', ->
       assert(Payment.fns.validateCardNumber('378282246310005'), 'amex')
       assert(Payment.fns.validateCardNumber('371449635398431'), 'amex')
       assert(Payment.fns.validateCardNumber('378734493671000'), 'amex')
-    it 'should validate dankort card types', ->
-      assert(Payment.fns.validateCardNumber('5019123456789013'), 'dankort')
+    ###it 'should validate dankort card types', ->
+      assert(Payment.fns.validateCardNumber('5019123456789013'), 'dankort')###
     it 'should validate dinersclub card types', ->
       assert(Payment.fns.validateCardNumber('30569309025904'), 'dinersclub')
       assert(Payment.fns.validateCardNumber('38520000023237'), 'dinersclub')
@@ -67,15 +67,15 @@ describe 'payment', ->
       assert(Payment.fns.validateCardNumber('4000 0000 0000 0000 030'), 'visa')
     it 'should validate visaelectron card types', ->
       assert(Payment.fns.validateCardNumber('4917300800000000'), 'visaelectron')
-    it 'should validate unionpay card types', ->
+    ###it 'should validate unionpay card types', ->
       assert(Payment.fns.validateCardNumber('6271136264806203568'), 'unionpay')
       assert(Payment.fns.validateCardNumber('6236265930072952775'), 'unionpay')
       assert(Payment.fns.validateCardNumber('6204679475679144515'), 'unionpay')
-      assert(Payment.fns.validateCardNumber('6216657720782466507'), 'unionpay')
-    it 'should validate maestro card types', ->
+      assert(Payment.fns.validateCardNumber('6216657720782466507'), 'unionpay')###
+    ###it 'should validate maestro card types', ->
       assert(Payment.fns.validateCardNumber('6759649826438453'), 'maestro')
       assert(Payment.fns.validateCardNumber('6759 4111 0000 0008'), 'maestro')
-      assert(Payment.fns.validateCardNumber('6759 6498 2643 8453'), 'maestro')
+      assert(Payment.fns.validateCardNumber('6759 6498 2643 8453'), 'maestro')###
     it 'should validate hipercard card types', ->
       assert(Payment.fns.validateCardNumber('6062821086773091'), 'hipercard')
       assert(Payment.fns.validateCardNumber('6375683647504601'), 'hipercard')

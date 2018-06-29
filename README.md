@@ -1,4 +1,10 @@
-# Payment [![Build Status](https://travis-ci.org/jessepollak/payment.svg?branch=master)](https://travis-ci.org/jessepollak/payment)
+# Payment [![Build Status](https://travis-ci.org/tuningparts/payment.svg?branch=master)](https://travis-ci.org/tuningparts/payment)
+
+
+# Criador da biblioteca [@Jesse Pollak](https://github.com/jessepollak/payment)
+
+# BIBLIOTECA CLONADA PARA PROPOSITO PESSOAL. MUDEI O METODO DE BUSCA DA BANDEIRA DO CARTÃO. E ALGUMAS BANDEIRAS FORAM REMOVIDAS
+
 
 A jQuery-free general purpose library for building credit card forms, validating inputs and formatting numbers. Heavily, heavily based on [@stripe's jquery.payment library](http://github.com/stripe/jquery.payment), but without the jQuery.
 
@@ -19,19 +25,14 @@ if (!valid) {
 }
 ```
 
-You can find a full [demo here](http://jessepollak.github.io/payment/example).
-
 Supported card types are:
 
 * Visa
 * MasterCard
 * American Express
 * Discover
-* JCB
 * Diners Club
 * Maestro
-* Laser
-* UnionPay
 * Elo
 * Hipercard
 
@@ -146,11 +147,7 @@ Returns a card type. Either:
 * `mastercard`
 * `discover`
 * `amex`
-* `jcb`
 * `dinersclub`
-* `maestro`
-* `laser`
-* `unionpay`
 * `elo`
 * `hipercard`
 

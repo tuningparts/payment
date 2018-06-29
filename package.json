@@ -7,11 +7,11 @@
     "cc",
     "card"
   ],
-  "author": "Jesse Pollak",
+  "author": "Diogo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jessepollak/payment.git"
+    "url": "https://diogocolete@github.com/tuningparts/payment.git"
   },
   "main": "lib/index.js",
   "scripts": {
