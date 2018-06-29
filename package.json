@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://diogocolete@github.com/tuningparts/payment.git"
+    "url": "https://tuningparts@github.com/tuningparts/payment.git"
   },
   "main": "lib/index.js",
   "scripts": {
