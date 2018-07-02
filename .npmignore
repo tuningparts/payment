@@ -25,9 +25,9 @@
 
 work
 build
-src
+#src
 test
-spec
+#spec
 pids
 logs
 results
